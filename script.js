@@ -1,12 +1,10 @@
-document.getElementById("capitalizer-form").addEventListener("submit", async function(event) {
-    event.preventDefault();
-    const inputText = document.getElementById("input-text").value;
+function capitalizeAndPunctuate() {
+  var input = document.getElementById('inputText').value;
 
-    const response = await fetch("/capitalize", {
-        method: "POST",
-        body: new FormData(this)
-    });
+  // Capitalize articles and punctuate sentences
+  var capitalizedText = input.replace(/(\.\s+|^)([a-z])/g, function(match, p1, p2) {
+    return p1 + p2.toUpperCase();
+  });
 
-    const data = await response.json();
-    document.getElementById("output-text").textContent = data.capitalized_text;
-});
+  document.getElementById('outputText').textContent = capitalizedText;
+}
