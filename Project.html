@@ -1,16 +1,42 @@
 <!DOCTYPE html>
-<html lang='en'>
+<html lang="en">
 <head>
-    <title>Capitalizer</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CapitalizeMe - Project</title>
+  <link rel="stylesheet" type="text/css" href="project-styles.css">
 </head>
 <body>
-    <h1>Capitalizer</h1>
-    <form id="capitalizer-form">
-        <textarea id="input-text" rows="10" placeholder="Enter your text here..."></textarea>
-        <button type="submit">Submit</button>
-    </form>
-    <div id="output-text"></div>
-    <script src="script.js"></script>
+  <header>
+    <nav>
+      <div class="logo">
+        <img src="openai-logo.png" alt="OpenAI Logo">
+      </div>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="project.html" class="active">Start Now</a>
+      </div>
+    </nav>
+  </header>
+
+  <section class="project-section">
+    <div class="container">
+      <h1>CapitalizeMe</h1>
+      <p>CapitalizeMe is a tool that helps you capitalize articles and punctuate sentences correctly.</p>
+      <div class="textarea-container">
+        <textarea id="inputText" placeholder="Enter your text..."></textarea>
+      </div>
+      <div class="button-container">
+        <button id="capitalizeButton">Capitalize and Punctuate</button>
+      </div>
+      <div id="outputText" class="output-container"></div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2023 CapitalizeMe. All rights reserved.</p>
+  </footer>
+
+  <script src="project-script.js"></script>
 </body>
 </html>
