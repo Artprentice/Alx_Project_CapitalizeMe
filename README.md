@@ -4,7 +4,7 @@ CapitalizeMe is a project that aims to enhance the readability and professionali
 
 AUTHORS
 Artprentice (abdallahsulieman56@gmail.com)
-lawalafeez820 (lawalafeez820@gmail.com)
+Lawalafeez (lawalafeez820@gmail.com)
 
 ## Table of Contents
 - [Features](#features)
