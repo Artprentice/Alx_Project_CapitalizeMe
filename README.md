@@ -1,6 +1,9 @@
 # CapitalizeMe
 
-CapitalizeMe is a web application that takes paragraphs of text and capitalizes the nouns and the first letter of each sentence. It is built using HTML, CSS, Python, and FastAPI.
+CapitalizeMe is a web application that takes paragraphs of text and capitalizes the nouns and the first letter of each sentence. It is built using HTML, CSS, and javascript
+AUTHORS
+Artprentice (abdallahsulieman56@gmail.com)
+----------- (lawalafeez820@gmail.com)
 
 ## Table of Contents
 - [Features](#features)
@@ -15,10 +18,11 @@ CapitalizeMe is a web application that takes paragraphs of text and capitalizes 
 - Built with FastAPI for efficient and fast web request handling.
 - Utilizes natural language processing techniques with the NLTK library.
 
-## Insatllation
-- Open a terminal, navigate to the project directory, and run the following command to install the required Python packages:
-- ' pip install fastapi nltk uvicorn '
+## Installation
+- Go here https://artprentice.github.io/Alx_Project_CapitalizeMe/
+
 ## Usage
-- Run the following command in the terminal to start the server:
-- ' uvicorn main:app --reload '
-- Open your browser and visit http://localhost:8000 to see the website
+- Open your browser and visit the link above. Self explanatory from there on ward
+
+## Licensing
+- Open source
